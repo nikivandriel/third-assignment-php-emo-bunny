@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: small;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+}
+
+li {
+    list-style: none;
+    border: 1px dotted black;
+    display: flex;
+    min-width: 75px;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+}
+
+.false {
+    background-color: red;
+}
+.true {
+    background-color: green;
+}
+
+table {
+    border: 1px solid green;
+}
+
+td {
+    padding: .5rem;
+}
+
+.table-header {
+    background-color: green;
+    color: white
+}
+
+.first-row td:nth-child(even),
+.second-row td:nth-child(odd),
+.last-row td:nth-child(even) {
+    background-color: lightgreen;
+}
+
+section {
+    margin-block-end: 1rem;;
+}
